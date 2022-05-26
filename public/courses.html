@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB DESIGN</title>
+    <link rel="stylesheet" href="/index.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="/js_function.js"></script>
+</head>
+
+<body>
+    
+    <div id="background">
+            <div class="date">
+        <span id="time"></span><br>
+        <span id="day"></span>
+    </div>
+    <div class="head" id="home">
+        <h3>WelCome</h3>
+        <div class="buttonbox">
+            <a href="#"><button class="hm" type="button">HOME</button></a>
+            <a href="/login/static"> <button class="hm" type="button">COURSES</button></a>
+            <a href="#contact"> <button class="hm" type="button">contact</button></a>
+            <a href="#abou"><button class="hm" type="button">about</button></a>
+            <a href="/logout"><button class="hm" type="button">Logout</button></a>
+        </div>
+    </div >
+    <div id="abou">
+        <p id="hello">Hello, my name is </p>
+        <p id="suchit">Suchit Kumar</p>
+        <br>
+        <p class="edu">B.Tech Student</p>
+        <br>
+        <p class="edu">2nd Year</p>
+        <p class="edu">Chemical engineering</p>
+        <br>
+        <a  href="https://www.iitk.ac.in/" target="blank"><button class="edu" id="iit">IIT KANPUR</button></a>
+        
+    </div>
+    <div class="pic">
+        <img src="/pic/sk.jpeg" height="300px" width="300px">
+    </div>
+    
+</div>
+
+
+
+
+
+
+
+
+
+    <div class="contact" id="contact">
+        <div id="cc">
+            <h2 id="head">Contact ME</h2>
+            <hr>
+            <form action="/querysubmit" method="post">
+                <input type="text" placeholder="First Name*" id="fname" class="name" name="fname" required>
+                <input type="text" placeholder="Last Name" id="lname" class="name" name="lname">
+                <input type="email" placeholder="Email ID*" id="email" name="email" class="name" required>
+                <input type="number" placeholder="Mobile No." id="number" name="number" class="name">
+                <input type="text" placeholder="Well, what do you think?" id="about" name="query" class="name">
+                <button type="submit" id="submit" class="name">Submit</button>
+                <button type="reset" id="reset" class="name">Reset</button>
+            </form>
+        </div>
+       
+        <div id="itsme">
+            <h2>My Handles:</h2>
+            <hr>
+            <a  href="https://www.instagram.com/iz_suchit/" target="blank"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=100024178777069" target="blank"><i class="fa fa-facebook"></i></a>
+            <a href="wa.me/9569950091" target="_blank"><i class="fa fa-whatsapp"></i></a>
+            <a href="https://twitter.com/suchit159kumar" target="blank"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/suchit-kumar-8207a2178/" target="blank"><i class="fa fa-linkedin"></i></a>
+            <a href="https://www.youtube.com/channel/UCKcyM4Q28Idmxk88yc-O4fw" target="blank"><i class="fa fa-youtube"></i></a>
+            <a href="https://github.com/izsuchit" target="blank"><i class="fa fa-github"></i></a>
+        </div>
+
+        <div class="blank">
+            <div id="cir"></div>
+        </div>
+    </div>
+   
+    
+   
+    <section id="courses">
+        <h2 id="css">COURSES</h2>
+
+        <div class="butt">
+            <a href="/login/computer"><button type="button" class="but" id="c">COMPUTER SCIENCE</button></a>
+            
+            <a href="/login/electrical"><button type="button" class="but">ELECTRICAL ENGINEERING</button></a>
+            <a href="./login/mechanical"><button type="button" class="but">MECHANICAL ENGINEERING</button></a>
+            <a href="./login/chemical"><button type="button" class="but">CHEMICAL ENGINEERING</button></a>
+            <a href="./login/mse"><button type="button" class="but">MSE</button></a>
+            <a href="./login/civil"><button type="button" class="but">CIVIL ENGINEERING</button></a>
+            <a href="./login/aerospace"><button type="button" class="but">AEROSPACE ENGINEERING</button></a>
+            <a href="./login/mth"><button type="button" class="but">MTH</button></a>
+
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        &copycopyright 2021 | <a href="mailto:suchit159kumar@gmail.com">suchit kumar</a>
+    </footer>
+    <script src="/index.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</body>
+
+</html>

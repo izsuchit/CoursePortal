@@ -1,0 +1,18 @@
+body{
+    background-image:url(../pic/backmech.jpg);
+    
+}
+.mac{
+    height: 490px;
+    width: 100%;
+   
+}
+#mec{
+    position: absolute;
+     top:200px;
+left:250px;
+text-transform:capitalize;
+text-shadow: darkviolet;
+text-decoration-style:solid;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+}

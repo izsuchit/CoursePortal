@@ -1,0 +1,18 @@
+body{
+    background-image:url(../pic/backciv.jpg);
+    
+}
+.ci{
+    height: 490px;
+    width: 100%;
+   
+}
+#civ{
+    position: absolute;
+    top:200px;
+left:250px;
+text-transform: capitalize;
+text-shadow: darkviolet;
+text-decoration-style:solid;
+font-family:'Times New Roman', Times, serif;
+}

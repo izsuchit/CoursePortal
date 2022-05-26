@@ -1,0 +1,23 @@
+body{
+    background-color:darkseagreen;
+     background-image: none;
+     
+    
+ }
+ .ae{
+     height: 490px;
+     width: 100%;
+     background-image:url(../pic/backaero.jpg);
+  
+     border: 2px solid rgb(216, 148, 148);
+ }
+ #aer{
+     position: absolute;
+     top:200px;
+ left:250px;
+ text-transform: capitalize;
+ text-shadow: darkviolet;
+ text-decoration-style:solid;
+ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ color: black;
+ }
