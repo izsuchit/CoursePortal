@@ -137,8 +137,8 @@ passport.serializeUser((user,cb)=>{
  });
 
 passport.use(new FacebookStrategy({
-    clientID: '362840599032250',
-    clientSecret: '20fb6e5a56246484b340d8cd5175867a',
+    clientID: '569455867865680',
+    clientSecret: 'e4fbd7b18ba7fb943c0c087f37cbe6b6',
     callbackURL: "http://localhost:5000/auth/facebook/secrets"
   },
   function(accessToken, refreshToken, profile, cb) {
@@ -178,8 +178,8 @@ app.get('/auth/facebook/secrets',
 
 /* GOOGLE AUTH*/
 const GoogleStrategy = require('passport-google-oauth').OAuth2Strategy;
-const GOOGLE_CLIENT_ID = '843699126819-pb45ifis96lo7gp1p8rn24296ps87jfv.apps.googleusercontent.com';
-const GOOGLE_CLIENT_SECRET = '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';
+const GOOGLE_CLIENT_ID = '394811893043-5b63cv1ot9u6or5isi2b40vc8bdll3ur.apps.googleusercontent.com';
+const GOOGLE_CLIENT_SECRET = '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';
 passport.use(new GoogleStrategy({
     clientID: GOOGLE_CLIENT_ID,
     clientSecret: GOOGLE_CLIENT_SECRET,
