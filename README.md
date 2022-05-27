@@ -3,8 +3,7 @@
 ## Contribution
 SUCHIT KUMAR
 
-## It is a simple course portal that only access after authentication. It contains login/signup form 
-with facebook and google 
+#### It is a simple course portal that only access after authentication. It contains login/signup with facebook and google 
 
 ### Frontend
 - HTML
