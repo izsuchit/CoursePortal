@@ -1,22 +1,22 @@
-#COURSE PORTAL
+# COURSE PORTAL
 
-#Contribution
+## Contribution
 SUCHIT KUMAR
 
-#It is a simple course portal that only access after authentication. It contains login/signup form 
+## It is a simple course portal that only access after authentication. It contains login/signup form 
 with facebook and google 
 
-#Frontend
--HTML
--CSS
--Javascipt
--bootstrap
+### Frontend
+- HTML
+- CSS
+- Javascipt
+- bootstrap
 
-#Bakend
--Node js
--Express js
--PostgreSQL as database
+### Bakend
+- Node js
+- Express js
+- PostgreSQL as database
 
-Install Node js and postgreSQL
+#### Install Node js and postgreSQL
 Clone the ripo 
 install dependency and run in localhost
