@@ -169,7 +169,8 @@ app.get('/auth/facebook',
 app.get('/auth/facebook/secrets',
   passport.authenticate('facebook', { failureRedirect: '/login' }),
   function(req, res) {
-    res.render('secrets');
+   x=1;
+    res.render('/login/static');
     
   });
 
@@ -213,8 +214,8 @@ app.get('/auth/google',
 app.get('/auth/google/callback', 
   passport.authenticate('google', { failureRedirect: '/error' }),
   function(req, res) {
-   
-    res.render('secrets');
+   x=1;
+    res.render('/login/static');
   });
 
 
